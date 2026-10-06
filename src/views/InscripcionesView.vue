@@ -125,6 +125,17 @@ const cerrarSesion = () => {
           </ul>
         </div>
 
+        <div class="tarjeta">
+          <h3>Proceso de inscripción</h3>
+
+          <ol>
+            <li>Selecciona el curso de tu interés.</li>
+            <li>Inicia sesión en la plataforma.</li>
+            <li>Confirma tu inscripción.</li>
+            <li>Accede al material de apoyo.</li>
+          </ol>
+        </div>
+
       </div>
 
       <div v-if="!inscrito" class="confirmacion">
